@@ -51,10 +51,23 @@ class ViewChuckModel{
         return self.chucks
     }
     
+    private func validID(chuck: ChuckModel)-> Bool{
+        if self.chucks.contains(where: { name in name.id == chuck.id }) {
+            return false
+        } else {
+            return true
+        }
+    }
+    
     
     @objc func onSuccess(_ notification: NSNotification){
         let chucks = (notification.userInfo?["result"] as? ChuckModel)!
-        self.chucks.append(chucks)
+        
+        let validChuck = self.validID(chuck: chucks)
+        
+        if validChuck{
+            self.chucks.append(chucks)
+        }
         
         if self.chucks.count < 10{
             self.network.getChucks()
