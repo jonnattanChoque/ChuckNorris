@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B907203C112E0798DA775F4 /* Pods_ChuckApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF1C45BF471D8D82C134AA3 /* Pods_ChuckApiTests.framework */; };
+		724B95A46F5B4D8744B93841 /* Pods_ChuckApi_ChuckApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010303500800F4AD191D922E /* Pods_ChuckApi_ChuckApiUITests.framework */; };
+		C54A2A388F0717096814A131 /* Pods_ChuckApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62813F2870E5709EE108F552 /* Pods_ChuckApi.framework */; };
 		E6F7B023274DAD21005904E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B022274DAD21005904E1 /* AppDelegate.swift */; };
 		E6F7B025274DAD21005904E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B024274DAD21005904E1 /* SceneDelegate.swift */; };
 		E6F7B027274DAD21005904E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B026274DAD21005904E1 /* ViewController.swift */; };
@@ -16,6 +19,13 @@
 		E6F7B03A274DAD23005904E1 /* ChuckApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B039274DAD23005904E1 /* ChuckApiTests.swift */; };
 		E6F7B044274DAD23005904E1 /* ChuckApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B043274DAD23005904E1 /* ChuckApiUITests.swift */; };
 		E6F7B046274DAD23005904E1 /* ChuckApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B045274DAD23005904E1 /* ChuckApiUITestsLaunchTests.swift */; };
+		E6F7B056274DADD7005904E1 /* ChuckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B055274DADD7005904E1 /* ChuckModel.swift */; };
+		E6F7B059274DAEDD005904E1 /* AlamofireApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B058274DAEDD005904E1 /* AlamofireApi.swift */; };
+		E6F7B05B274DAF5E005904E1 /* ViewChuckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B05A274DAF5E005904E1 /* ViewChuckModel.swift */; };
+		E6F7B05F274DAFFD005904E1 /* ReloadViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B05E274DAFFD005904E1 /* ReloadViewDelegate.swift */; };
+		E6F7B063274DC480005904E1 /* ChuckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B061274DC480005904E1 /* ChuckTableViewCell.swift */; };
+		E6F7B064274DC480005904E1 /* ChuckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F7B062274DC480005904E1 /* ChuckTableViewCell.xib */; };
+		E6F7B067274DC60A005904E1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7B066274DC60A005904E1 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010303500800F4AD191D922E /* Pods_ChuckApi_ChuckApiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckApi_ChuckApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE075704F4813DC8F16EEA7 /* Pods-ChuckApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApi.debug.xcconfig"; path = "Target Support Files/Pods-ChuckApi/Pods-ChuckApi.debug.xcconfig"; sourceTree = "<group>"; };
+		62524DE8E81BFFEC3595E408 /* Pods-ChuckApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApiTests.debug.xcconfig"; path = "Target Support Files/Pods-ChuckApiTests/Pods-ChuckApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62813F2870E5709EE108F552 /* Pods_ChuckApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C1FDB88BAE6E5D7841750E /* Pods-ChuckApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApiTests.release.xcconfig"; path = "Target Support Files/Pods-ChuckApiTests/Pods-ChuckApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D0F7BE57C2EDFD645689D62 /* Pods-ChuckApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApi.release.xcconfig"; path = "Target Support Files/Pods-ChuckApi/Pods-ChuckApi.release.xcconfig"; sourceTree = "<group>"; };
+		BDF1C45BF471D8D82C134AA3 /* Pods_ChuckApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46AFDF34F17EB78ACAEE196 /* Pods-ChuckApi-ChuckApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApi-ChuckApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChuckApi-ChuckApiUITests/Pods-ChuckApi-ChuckApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6F7B01F274DAD21005904E1 /* ChuckApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F7B022274DAD21005904E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6F7B024274DAD21005904E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,14 @@
 		E6F7B03F274DAD23005904E1 /* ChuckApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F7B043274DAD23005904E1 /* ChuckApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckApiUITests.swift; sourceTree = "<group>"; };
 		E6F7B045274DAD23005904E1 /* ChuckApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6F7B055274DADD7005904E1 /* ChuckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckModel.swift; sourceTree = "<group>"; };
+		E6F7B058274DAEDD005904E1 /* AlamofireApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireApi.swift; sourceTree = "<group>"; };
+		E6F7B05A274DAF5E005904E1 /* ViewChuckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewChuckModel.swift; sourceTree = "<group>"; };
+		E6F7B05E274DAFFD005904E1 /* ReloadViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadViewDelegate.swift; sourceTree = "<group>"; };
+		E6F7B061274DC480005904E1 /* ChuckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckTableViewCell.swift; sourceTree = "<group>"; };
+		E6F7B062274DC480005904E1 /* ChuckTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChuckTableViewCell.xib; sourceTree = "<group>"; };
+		E6F7B066274DC60A005904E1 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		F3B519E9D848F22F8C143248 /* Pods-ChuckApi-ChuckApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckApi-ChuckApiUITests.release.xcconfig"; path = "Target Support Files/Pods-ChuckApi-ChuckApiUITests/Pods-ChuckApi-ChuckApiUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54A2A388F0717096814A131 /* Pods_ChuckApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B907203C112E0798DA775F4 /* Pods_ChuckApiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724B95A46F5B4D8744B93841 /* Pods_ChuckApi_ChuckApiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1FC403201734B461CF9506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CE075704F4813DC8F16EEA7 /* Pods-ChuckApi.debug.xcconfig */,
+				7D0F7BE57C2EDFD645689D62 /* Pods-ChuckApi.release.xcconfig */,
+				E46AFDF34F17EB78ACAEE196 /* Pods-ChuckApi-ChuckApiUITests.debug.xcconfig */,
+				F3B519E9D848F22F8C143248 /* Pods-ChuckApi-ChuckApiUITests.release.xcconfig */,
+				62524DE8E81BFFEC3595E408 /* Pods-ChuckApiTests.debug.xcconfig */,
+				75C1FDB88BAE6E5D7841750E /* Pods-ChuckApiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B028B725AFB9C6BBDA6A2642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62813F2870E5709EE108F552 /* Pods_ChuckApi.framework */,
+				010303500800F4AD191D922E /* Pods_ChuckApi_ChuckApiUITests.framework */,
+				BDF1C45BF471D8D82C134AA3 /* Pods_ChuckApiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6F7B016274DAD21005904E1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				E6F7B038274DAD23005904E1 /* ChuckApiTests */,
 				E6F7B042274DAD23005904E1 /* ChuckApiUITests */,
 				E6F7B020274DAD21005904E1 /* Products */,
+				7D1FC403201734B461CF9506 /* Pods */,
+				B028B725AFB9C6BBDA6A2642 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +153,13 @@
 		E6F7B021274DAD21005904E1 /* ChuckApi */ = {
 			isa = PBXGroup;
 			children = (
+				E6F7B05C274DAFDD005904E1 /* Commons */,
+				E6F7B057274DAEC9005904E1 /* Network */,
+				E6F7B054274DAD77005904E1 /* Model */,
+				E6F7B053274DAD6F005904E1 /* Views */,
+				E6F7B052274DAD5E005904E1 /* Controller */,
 				E6F7B022274DAD21005904E1 /* AppDelegate.swift */,
 				E6F7B024274DAD21005904E1 /* SceneDelegate.swift */,
-				E6F7B026274DAD21005904E1 /* ViewController.swift */,
-				E6F7B028274DAD21005904E1 /* Main.storyboard */,
 				E6F7B02B274DAD22005904E1 /* Assets.xcassets */,
 				E6F7B02D274DAD22005904E1 /* LaunchScreen.storyboard */,
 				E6F7B030274DAD22005904E1 /* Info.plist */,
@@ -127,6 +184,66 @@
 			path = ChuckApiUITests;
 			sourceTree = "<group>";
 		};
+		E6F7B052274DAD5E005904E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B026274DAD21005904E1 /* ViewController.swift */,
+				E6F7B05A274DAF5E005904E1 /* ViewChuckModel.swift */,
+				E6F7B061274DC480005904E1 /* ChuckTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6F7B053274DAD6F005904E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B028274DAD21005904E1 /* Main.storyboard */,
+				E6F7B062274DC480005904E1 /* ChuckTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6F7B054274DAD77005904E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B055274DADD7005904E1 /* ChuckModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6F7B057274DAEC9005904E1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B058274DAEDD005904E1 /* AlamofireApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6F7B05C274DAFDD005904E1 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B065274DC5EC005904E1 /* Extensions */,
+				E6F7B05D274DAFEC005904E1 /* Delegates */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		E6F7B05D274DAFEC005904E1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B05E274DAFFD005904E1 /* ReloadViewDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E6F7B065274DC5EC005904E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7B066274DC60A005904E1 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F7B049274DAD23005904E1 /* Build configuration list for PBXNativeTarget "ChuckApi" */;
 			buildPhases = (
+				EAEDD66F0C15E1D9C47A5AB5 /* [CP] Check Pods Manifest.lock */,
 				E6F7B01B274DAD21005904E1 /* Sources */,
 				E6F7B01C274DAD21005904E1 /* Frameworks */,
 				E6F7B01D274DAD21005904E1 /* Resources */,
+				3C19009F664F21C781019F58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F7B04C274DAD23005904E1 /* Build configuration list for PBXNativeTarget "ChuckApiTests" */;
 			buildPhases = (
+				826AB13897AC3B1C0D170107 /* [CP] Check Pods Manifest.lock */,
 				E6F7B031274DAD23005904E1 /* Sources */,
 				E6F7B032274DAD23005904E1 /* Frameworks */,
 				E6F7B033274DAD23005904E1 /* Resources */,
@@ -169,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6F7B04F274DAD23005904E1 /* Build configuration list for PBXNativeTarget "ChuckApiUITests" */;
 			buildPhases = (
+				881B0E91B7DBA0A0D79A0B8B /* [CP] Check Pods Manifest.lock */,
 				E6F7B03B274DAD23005904E1 /* Sources */,
 				E6F7B03C274DAD23005904E1 /* Frameworks */,
 				E6F7B03D274DAD23005904E1 /* Resources */,
+				867D40F8C14633BAADA3D6FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F7B064274DC480005904E1 /* ChuckTableViewCell.xib in Resources */,
 				E6F7B02F274DAD22005904E1 /* LaunchScreen.storyboard in Resources */,
 				E6F7B02C274DAD22005904E1 /* Assets.xcassets in Resources */,
 				E6F7B02A274DAD21005904E1 /* Main.storyboard in Resources */,
@@ -253,14 +376,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C19009F664F21C781019F58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckApi/Pods-ChuckApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckApi/Pods-ChuckApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuckApi/Pods-ChuckApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826AB13897AC3B1C0D170107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckApiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867D40F8C14633BAADA3D6FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckApi-ChuckApiUITests/Pods-ChuckApi-ChuckApiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuckApi-ChuckApiUITests/Pods-ChuckApi-ChuckApiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuckApi-ChuckApiUITests/Pods-ChuckApi-ChuckApiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881B0E91B7DBA0A0D79A0B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckApi-ChuckApiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEDD66F0C15E1D9C47A5AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuckApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6F7B01B274DAD21005904E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6F7B027274DAD21005904E1 /* ViewController.swift in Sources */,
+				E6F7B059274DAEDD005904E1 /* AlamofireApi.swift in Sources */,
 				E6F7B023274DAD21005904E1 /* AppDelegate.swift in Sources */,
+				E6F7B056274DADD7005904E1 /* ChuckModel.swift in Sources */,
+				E6F7B063274DC480005904E1 /* ChuckTableViewCell.swift in Sources */,
+				E6F7B067274DC60A005904E1 /* UIImageExtension.swift in Sources */,
 				E6F7B025274DAD21005904E1 /* SceneDelegate.swift in Sources */,
+				E6F7B05F274DAFFD005904E1 /* ReloadViewDelegate.swift in Sources */,
+				E6F7B05B274DAF5E005904E1 /* ViewChuckModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +666,7 @@
 		};
 		E6F7B04A274DAD23005904E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE075704F4813DC8F16EEA7 /* Pods-ChuckApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +695,7 @@
 		};
 		E6F7B04B274DAD23005904E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0F7BE57C2EDFD645689D62 /* Pods-ChuckApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +724,7 @@
 		};
 		E6F7B04D274DAD23005904E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62524DE8E81BFFEC3595E408 /* Pods-ChuckApiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +750,7 @@
 		};
 		E6F7B04E274DAD23005904E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C1FDB88BAE6E5D7841750E /* Pods-ChuckApiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +776,7 @@
 		};
 		E6F7B050274DAD23005904E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46AFDF34F17EB78ACAEE196 /* Pods-ChuckApi-ChuckApiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +800,7 @@
 		};
 		E6F7B051274DAD23005904E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B519E9D848F22F8C143248 /* Pods-ChuckApi-ChuckApiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

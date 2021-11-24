@@ -1,0 +1,6 @@
+framework module Pods_ChuckApi {
+  umbrella header "Pods-ChuckApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

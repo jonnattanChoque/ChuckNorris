@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="ChuckTableViewCell" customModule="ChuckApi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BdA-7O-4rh">
+                        <rect key="frame" x="5" y="5" width="141" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="141" id="ir7-9J-G87"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znd-wF-6js">
+                        <rect key="frame" x="156" y="5" width="154" height="60"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BdA-7O-4rh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="3YW-7u-Aqr"/>
+                    <constraint firstAttribute="bottom" secondItem="Znd-wF-6js" secondAttribute="bottom" constant="5" id="U5u-6A-iHi"/>
+                    <constraint firstItem="BdA-7O-4rh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="bVK-M3-3IP"/>
+                    <constraint firstItem="Znd-wF-6js" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="dUf-HY-Ig6"/>
+                    <constraint firstAttribute="trailing" secondItem="Znd-wF-6js" secondAttribute="trailing" constant="10" id="oDp-3e-mwS"/>
+                    <constraint firstAttribute="bottom" secondItem="BdA-7O-4rh" secondAttribute="bottom" constant="5" id="sfC-1N-fvN"/>
+                    <constraint firstItem="Znd-wF-6js" firstAttribute="leading" secondItem="BdA-7O-4rh" secondAttribute="trailing" constant="10" id="tPS-b8-VZy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageChuck" destination="BdA-7O-4rh" id="oV8-l1-yGg"/>
+                <outlet property="labelChuck" destination="Znd-wF-6js" id="191-9w-L4x"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="93.080357142857139"/>
+        </tableViewCell>
+    </objects>
+</document>
